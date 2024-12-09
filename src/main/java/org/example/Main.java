@@ -61,7 +61,7 @@ public class Main {
             FirebaseMessaging fcm = firebaseMessaging(app);
 
             // This registration token comes from the client FCM SDKs.
-            String registrationToken = "dnfRyZC0oiOoAS0xyMxnLF:APA91bGs6W5vDhaMZqQX3n1GZFwPGUEJiUi0sVC5hffXMItw8958ldrsHE7IMyrLVNuP6v2eDLNn1gFBKolyOPgNRQ79msH55Vu_Us42Eavl2vTVVBQBNyA";
+            String registrationToken = "";
 
             // See documentation on defining a message payload.
             Message message = Message.builder()
