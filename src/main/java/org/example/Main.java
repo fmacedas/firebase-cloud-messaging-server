@@ -37,17 +37,17 @@ public class Main {
 
     public static GoogleCredentials getGoogleCredentials() throws JSONException, IOException {
         JSONObject json = new JSONObject();
-        json.put("type", "service_account");
-        json.put("project_id", "test-only-1cba0");
-        json.put("private_key_id", "50bf31e66131af180b6ecc4bbceee74f163a7837");
-        json.put("private_key", "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQChzFZl8uCGPIBh\n5+7BQ/3YOSGD5xMAK1XB8se9gCxZdNuxngDFg/db/5W2WLYc2NFaKW6qS0TbhmGw\nE63ypKn5E/zgJbMRm84Ttff4WMPjYS36fSdkmgtD+j4N9Zbfb/2VluuuQduFH+yV\nhuP2ADyQzxRbzlGvVUyRBRxbBL3W6uW0z9/6iWyeMKySIJFcsTZ2l5zxyt8yw/Ce\nHVV9dImtep4qn0amFXsoSXEPtgc/Tc0xW32t7FkbyLvD14P2t2mVMqwTowf/IDx6\n9mzbBgjNGwj94vKLF4L9VjhFxee/pevPgf8t0RQgKYyEQEeFJidmmkR11Y8bzE2d\nvQD/fxATAgMBAAECggEAMauALoX0JWF3bBb+dbhAuls3jb2nWJr1FbhJV0R82O2F\n8C34QKp1inmY5USwi4SIKGylu4Ol3NqRLLOt59pjD8LyE4GfSl2RUv2+5S+i2y/f\nJJG9QSYFJVYyLKjjKy6/I2gUbAdts52MTI7/dmq2LSJVNqXM78141uBBxzNacBpp\nC6Hb9vIzgVQAJKBOYLaYkSC0qOdVpbBxXt6o0GfizSkzpeZrJgqUwqtmM67AaLFL\ni6c7PcsarPOE44eaLs3XrTJhVrM9cgupXjZs//pT7isgLl9kS3y5Mz8UQcDXXmEV\nxeCIH5/fwFH17zxf2braxTGTqKNySz0MPzKNpaUEQQKBgQDdOWCdHL3HKh1vwWc+\nJrPFW+RRDGp70uD2KyVE/bo4RI/2hpidWdEoN2rZwUhEkx9UCGqe7q9RffuJ7Oum\n1L/qbbddUB6GsKW0465SpmDdhFrnrBAj8aO3ybgby6uWr6+hGynscJHaHlYGsA3j\nc7ZzQQtBF25lKmG7DNxREOzgcwKBgQC7O4JNRv9w7vxAYgRSa/d++i+0Xg3DKaeR\nXjCaPRGuK1f/Qkb039V8Nx5HGqd6BiIgsEd/mC7jGNSJ5BjzGjRjl8kY4BbIHRTh\n/GQ4aHENMpjIPkWL0uo8RSKqn0TqgHOmS11hFKmy3Cc+z+eidDgAzBb5XV74YsxQ\neQwxjT9J4QKBgEncU1aBdxddB1D9uLO2hkT5hkRNKexHnxZxl1Luh9MriQldLO00\nRLHxtroXX0KOAGK1IKwJsv05W9dUA+XCmITztsnv6xE7P0gi0FwF8sdi3lsFRqpJ\njkjZj5+wI4z/AVt/z0KC3x99C2nWM/zh8GOQruo/oXsjaFfkVla2mO/jAoGAVOyT\nF7YiWvkrVZCf4TqzkdatGKSonWMhbGBKr0sP3+4tBczsHloAnUzq4NmIKWLqy+Tp\nKUi/y6YRkVHytyGlrZ7FShEqhC4csLwoQSWuUYwnnHwSU2+hayD4rmd7fNoymrUI\nb+ZNaqFM88KdkCQi2sm3iff+Aa/eeInPLBKjKEECgYACgrLuV5/F9IfAi7YXrouV\nYeNq1OMVPqnLJWT72336n1WaKwT3N4QZd6AaQglvIF5XAumoEig+It+iFfKMQtmy\nWvhTj92NhLQprqGMFW8tWLxuS/1BoqsNIUbFXwAa/2u/e70eCipdnpjqZ6OvNO1t\n5uhtHQ8feLsolgPIMbxFaw==\n-----END PRIVATE KEY-----\n");
-        json.put("client_email", "firebase-adminsdk-ykfls@test-only-1cba0.iam.gserviceaccount.com");
-        json.put("client_id", "117440949407988503398");
-        json.put("auth_uri", "https://accounts.google.com/o/oauth2/auth");
-        json.put("token_uri", "https://oauth2.googleapis.com/token");
-        json.put("auth_provider_x509_cert_url", "https://www.googleapis.com/oauth2/v1/certs");
-        json.put("client_x509_cert_url", "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ykfls%40test-only-1cba0.iam.gserviceaccount.com");
-        json.put("universe_domain", "googleapis.com");
+        json.put("type", "");
+        json.put("project_id", "");
+        json.put("private_key_id", "");
+        json.put("private_key", "");
+        json.put("client_email", "");
+        json.put("client_id", "");
+        json.put("auth_uri", "");
+        json.put("token_uri", "");
+        json.put("auth_provider_x509_cert_url", "");
+        json.put("client_x509_cert_url", "");
+        json.put("universe_domain", "");
 
         String str = json.toString();
         InputStream is = new ByteArrayInputStream(str.getBytes());
